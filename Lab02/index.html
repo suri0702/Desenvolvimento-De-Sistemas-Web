@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 02 - Site 02</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1 class="t1" style="font-size: 10vw;">Tudo</h1>
+        <h1 class="t2" style="font-size: 10vw;">Sobre</h1>
+        <h1 class="t3" style="font-size: 10vw;">Gatos</h1>
+        <h2 class="t4" style="font-size: 1.4vw;">Tudo que você sempre quis saber sobre seu pet!</h2>
+    </div>
+    <div class="container">
+        <h3 class="t5" style="font-size: 4vw;">Raças mais populares <br> e suas características</h3>
+        <ul>
+            <p style="font-size: 1.9vw;">
+                ▸ Persa
+            <div class="d1" style="font-size: 1.2vw;">
+                <br>
+                Origem: Irã
+                <br>
+                Expectativa de vida: 15 a 20 anos.
+                <br>
+                Doenças:
+                <li>Síndrome braquicefálica ocasionando problemas respiratórios;</li>
+                <li>Problemas cardíacos;</li>
+                <li>Problemas oftálmicos;</li>
+            </div>
+            <video width="854" height="480" controls>
+                <source src="https://media.istockphoto.com/id/1214699136/pt/v%C3%ADdeo/a-white-persian-cat-lying-on-the-ground-with-eyes-look-back-and-forth.mp4?s=mp4-640x640-is&k=20&c=nUA5FBRsSGi5tqrsmwGNO9nFV4m7BUsFu9rx0u8K7-w=" type="video/mp4">
+              Your browser does not support the video tag.
+              </video>
+            </p>
+        </ul>
+        <ul>
+            <p style="font-size: 1.9vw;">
+                ▸ Siamês
+            <div class="d1" style="font-size: 1.2vw;">
+                <br>
+                Origem: Tailândia
+                <br>
+                Expectativa de vida: 15 a 20 anos
+            </div>
+            <img src="https://blog.planetpetcenter.com.br/wp-content/uploads/2023/03/siames-1.jpeg" alt="siames">
+            <audio controls>
+                <source src="gatomiando.wav" type="audio/wav">
+              Your browser does not support the audio element.
+              </audio>    
+        </p>
+        </ul>
+        <ul>
+            <p style="font-size: 1.9vw;">
+                ▸ Maine Coon
+            <div class="d1" style="font-size: 1.2vw;">
+                <br>
+                Origem: EUA
+                <br>
+                Expectativa de vida: 9 a 15 anos
+            </div>
+            <img src="https://www.purina.pt/sites/default/files/styles/ttt_image_510/public/2024-01/sitesdefaultfilesstylessquare_medium_440x440public2022-06Maine-Coon-Cat-compressed-0.jpg?itok=NdPg5eaD"
+                alt="mainecoon">
+            </p>
+        </ul>
+        <br>
+        <canvas id="myCanvas" width="200" height="100" style="border:10px solid #73cff4;">
+            Sorry, your browser does not support canvas.
+            </canvas>
+
+            <svg width="100" height="100" xmlns="sgv">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+              </svg>
+        <br>
+        <h4 class="t6" style="font-size: 3.5vw;">Seja Membro!</h4>
+        <form action="/action_page.php">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nomei" name="nomei" value="">
+            <br>
+            <label for="tipog">Selecione seu tipo de gato:</label>
+            <select name="gatos" id="tipogato">
+                <option value="Persa">Persa</option>
+                <option value="Maine Coon">Maine Coon</option>
+                <option value="Siamês">Siamês</option>
+            </select>
+            <br>
+            <label for="motivo">Descreva o motivo porque quer se tornar membro:</label>
+            <br>
+            <textarea id="motivo" name="motivo" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+          </form> 
+          
+    </div>
+</body>
+
+</html>

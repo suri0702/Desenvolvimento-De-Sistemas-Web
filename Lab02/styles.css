@@ -1,0 +1,130 @@
+body {
+    cursor: url(https://64.media.tumblr.com/93c839d077c31256c46cb408e5959a16/b6e51bb8b53dd656-cc/s100x200/d1295e23bcb3eaeb740f85463835d0a4a8bb4270.gifv), auto;
+    background: rgb(217, 184, 215);
+}
+
+.t1 {
+    display: block;
+    color: rgb(236, 41, 59);
+    text-align: left;
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-weight: 900;
+    line-height: 0.2;
+    padding-top: 80px;
+
+}
+
+.t2 {
+    display: block;
+    color: rgb(236, 41, 59);
+    text-align: left;
+    text-indent: 300px;
+    margin-left: 40px;
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-weight: 900;
+    line-height: 0.2;
+}
+
+.t3 {
+    display: block;
+    color: rgb(236, 41, 59);
+    text-align: left;
+    text-indent: 670px;
+    margin-left: 40px;
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-weight: 900;
+    line-height: 0.2;
+}
+
+.t4 {
+    display: block;
+    color: rgb(236, 41, 59);
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'ABC Ginto Nord Unlicensed Trial', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.container {
+    display: block;
+    background-color: #4c59a8;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.t5 {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'ABC Ginto Normal Unlicensed Trial', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(236, 197, 22);
+}
+
+p{
+    display: block;
+    text-align: left;
+    text-indent: 40px;
+    padding-top: 80px;
+    font-family: 'ABC Ginto Normal Unlicensed Trial', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(236, 197, 22);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.d1{
+    display: block;
+    text-align: left;
+    text-indent: 300px;
+    margin-left: 70px;
+    font-family: 'ABC Ginto Normal Unlicensed Trial', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(236, 197, 22);
+}
+.t6 {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'ABC Ginto Normal Unlicensed Trial', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: rgb(236, 197, 22);
+}
+
+form {
+    display: block;
+    text-align: center;
+    font-family: 'ABC Ginto Normal Unlicensed Trial', sans-serif;
+    font-weight: 300;
+    color: rgb(236, 197, 22);
+}
+video{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+audio{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+canvas{
+    display: block;
+    margin-left: 550px;
+}
+svg{
+    display: block;
+    margin-left: 550px;
+}

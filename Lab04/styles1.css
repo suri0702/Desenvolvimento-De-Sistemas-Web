@@ -1,0 +1,238 @@
+body {
+    cursor: url(https://64.media.tumblr.com/8f7cf509d44ca354b44f742c43aa92b7/a8d6c35c07a2fb5e-12/s100x200/b12b118c2785240cf7b17e34f07e23e0f3ba4c82.gifv), auto;
+    background: rgb(84, 106, 81);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(65, 84, 62);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 11vw;
+    margin: 0;
+}
+
+a {
+    color: rgb(239, 226, 190);
+    font-size: 1.5vw;
+    margin: 60px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(143, 102, 59);
+    height: 5vw;
+    padding: 0.2px;
+}
+
+footer {
+    background-color: rgb(65, 84, 62);
+    margin-top: auto;
+    height: 5vw;
+}
+
+div{
+    background-color: rgb(239, 226, 190);
+    width: 95vw;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 76vh;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.titulo1 {
+    font-family: "EB Garamond", serif;
+    color: rgb(239, 226, 190);
+    font-size: 8vw;
+    margin-top: 0px;
+    letter-spacing: 40px;
+    padding-top: 0.01px;
+
+}
+
+.titulo-footer {
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    color: rgb(239, 226, 190);
+    font-size: 1.4vw;
+    margin:25px;
+    display: block;
+}
+
+.gal{
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    color: rgb(90, 65, 39);
+    font-size: 3vw;
+    font-style: italic;
+    letter-spacing: 22px;
+}
+
+.titulo3 {
+    font-family: "Atomic Age", system-ui;
+    color: rgb(75, 85, 99);
+    font-size: 8vw;
+    margin-top: 0px;
+    letter-spacing: 50px;
+    padding-top: 0.01px;
+
+}
+
+.nlink{
+    font-family: "EB Garamond", serif;
+    color: rgb(239, 226, 190);
+    font-size: 1.5vw;
+    margin: 60px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.slink{
+    font-family: "Atomic Age", system-ui;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    margin: 60px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.gal1{
+    font-family: "Atomic Age", system-ui;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    font-style: italic;
+    letter-spacing: 22px;
+}
+
+.bd{
+    background: rgb(255, 255, 255);
+    cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/red-rocket-animated/red-rocket-animated-custom-cursor.gif), auto;
+}
+
+.sphd{
+    background-color: rgb(255, 255, 255);
+}
+
+.snv{
+    background-color: rgb(109, 40, 217);
+}
+
+.sdiv{
+    background-color: rgb(13, 13, 61);
+}
+
+.ft{
+    background-color: rgb(109, 40, 217);
+}
+
+.titulo-footer1{
+    text-align: center;
+    font-family: "Atomic Age", system-ui;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    margin:10px;
+    display: block;
+}
+
+.bdt{
+    background-color: rgba(21,55,65,255);
+
+}
+
+.thd{
+    background-color: rgba(26,30,41,255);
+
+}
+
+.titulo4{
+    font-family: "VT323", monospace;
+    color: rgba(1,195,142,255);
+    font-size: 10vw;
+    margin-top: 8px;
+    letter-spacing: 100px;
+    padding-top: 0.01px;
+
+}
+
+.tnv{
+    background-color:rgba(19,45,70,255) ;
+
+}
+
+.tlink{
+    font-family: "VT323", monospace;
+    color: rgba(1,195,142,255);
+    font-size: 1.5vw;
+    margin: 80px;
+    padding-bottom: 0.5px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin-top: 10px;
+
+}
+
+.tdiv{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.gal2{
+    font-family: "VT323", monospace;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 40px;
+    color: rgba(106,110,121,255);
+    font-size: 5vw;
+    font-style: italic;
+    letter-spacing: 22px;
+
+}
+
+.ftt{
+    background-color: rgba(19,45,70,255);
+
+}
+
+.titulo-footer2{
+    text-align: center;
+    font-family: "VT323", monospace;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    margin:10px;
+    display: block;
+}
+
+
