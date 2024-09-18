@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz!</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="start_btn"><button>Começar</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Regras do Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Cada pergunta é uma corrida contra o tempo: você só tem <span>15 segundos</span>, pense rápido!</div>
+            <div class="info">2. Resposta dada é resposta selecionada - nada de mudar de ideia!</div>
+            <div class="info">3. O tempo acabou? Ops, não tem mais como escolher nada!</div>
+            <div class="info">4. Uma vez no jogo, não tem volta! Fique até o final.</div>
+            <div class="info">5. Acerte as perguntas e acumule pontos!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Bit a Bit: Você é Computeiro(a) de Verdade?</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo Restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Próximo</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Tentar Novamente</button>
+            <button class="quit">Sair</button>
+        </div>
+    </div>
+
+
+    <script src="js/questions.js"></script>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
