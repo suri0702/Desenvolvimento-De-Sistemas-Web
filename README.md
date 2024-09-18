@@ -22,11 +22,11 @@ Estrutura:
 Criação da estrutura HTML:
 • Crie um arquivo index.html.
 • Estruture o HTML para incluir:
-- Um elemento div para exibir o resultado das operações.
-- Botões para os números de 0 a 9.
-- Botões para as operações de soma (+), subtração (-), multiplicação (*), e divisão (/).
-- Um botão “=” para calcular o resultado.
-- Um botão “C” para limpar a tela
+• Um elemento div para exibir o resultado das operações.
+• Botões para os números de 0 a 9.
+• Botões para as operações de soma (+), subtração (-), multiplicação (*), e divisão (/).
+• Um botão “=” para calcular o resultado.
+• Um botão “C” para limpar a tela
 
 Estilização com CSS:
 • Crie um arquivo styles.css.
@@ -41,4 +41,23 @@ Funcionalidade com JavaScript:
 • Implemente as funções para realizar as operações aritméticas e exibir o resultado na tela.
 • Adicione funcionalidade ao botão “C” para limpar a tela e reiniciar a calculadora.
 
-Dentro da pasta desse lab estão os arquivos index1.htmlm, styles1.css e script1.js
+~Lab32 - Quiz de curiosidades (HTML, CSS e JAVASCRIPT)
+Objetivo: Desenvolver um quiz interativo (exemplo: curiosidades de computação), demonstrando habilidades em manipulação do DOM do Javascript, aplicação de estilos condicionais com CSS, e estruturação de conteúdo com HTML.
+• No mínimo 5 perguntas.
+• Cada pergunta com 4 opções de resposta, onde apenas uma é correta.
+HTML
+• Título do quiz.
+• Seção para cada pergunta com múltiplas escolhas.
+• Botão para submeter as respostas.
+• Área para exibir o resultado final.
+CSS
+• Estilos para diferenciar perguntas corretas de incorretas após a submissão.
+• Design responsivo para adequação em diferentes dispositivos.
+JavaScript
+• Verificar as respostas e contar a pontuação.
+• Exibir as respostas corretas para perguntas respondidas incorretamente.
+• Reiniciar o quiz sem recarregar a página.
+Extras
+• Incluir temporizador para cada pergunta.
+• Adicionar animações para transições de perguntas.
+• Permitir que o usuário escolha entre diferentes categorias de perguntas antes de iniciar o quiz.
