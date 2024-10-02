@@ -61,3 +61,8 @@ Extras
 • Incluir temporizador para cada pergunta.
 • Adicionar animações para transições de perguntas.
 • Permitir que o usuário escolha entre diferentes categorias de perguntas antes de iniciar o quiz.
+
+~Lab128 - Contato (HTML, CSS)
+Objetivo: esenvolver um formulário web usando HTML, CSS e, opcionalmente, Node.js. A tarefa é criar um formulário que não apenas seja funcional, mas que também seja
+esteticamente agradável e integrado com ferramentas gratuitas de envio de formulários. 
+link do forms: https://docs.google.com/spreadsheets/d/1VBHQcDIdVXUKVznD8cGtvAO2VOppuFoLeRZAIu6zbNM/edit?gid=0#gid=0
