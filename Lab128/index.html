@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="forms">
+        <h1 class="forms-titulo">Fale Conosco!</h1>
+        <form action="" name="fale-conosco">
+            <div class="forms-grupo">
+                <label for="nome">Nome</label>
+                <input type="nome" name="nome" id="nome">
+            </div>
+
+            <div class="forms-grupo">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="forms-grupo"></div>
+                <label for="msg">Mensagem</label>
+                <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+                <button type="enviar" class="btn-enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby8YyaAel8sIZnpcNe-TdJ13fHfTmbSsIpE8w7ozg8_qeUNrWP3aN-h15jH-q5PwdxvaA/exec'
+        const form = document.forms['fale-conosco']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+            form.reset()
+            alert('Sucesso ao enviar mensagem!')
+        })
+            .catch(error => console.error('Erro!', error.message))
+        })
+      </script>
+
+
+</body>
+</html>
